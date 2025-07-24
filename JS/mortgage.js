@@ -28,7 +28,6 @@ function outputMortgage(finalMortgage) {
 
     let totalPrestamoPorcentaje = 0;
     totalPrestamoPorcentaje = finalMortgage.totalPrestamo * 100 / finalMortgage.costoTotalInmueble;
-    alert(totalPrestamoPorcentaje);
 
     if(totalPrestamoPorcentaje > 90){
         document.getElementById("omontoprestamo").className += " alertaPorcentaje";
